@@ -1,13 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
   </head>
+
   <body>
 
 <header class="main-header">
-  <nav class="main-navigation">
+  <section class="main-navigation">
     <a class="main-logo" >
       <img src="img/index-logo.svg" width="170" height="80" alt="Логотип Техномарт">
     </a>
@@ -23,76 +26,95 @@
     </ul>
     <a class="button-login" href="loginpage.html">Войти</a>
     <a class="registration" href="registration.html">Регистрация</a>
+  </section>
+
+  <nav class="main">
     <ul class="mainnav">
-      <li>Главная</li>
-      <li>Компания</li>
-      <li>Каталог</li>
-      <li>Новости</li>
-      <li>Спецпредложения</li>
-      <li>Доставка</li>
-      <li>Контакты</li>
+       <li><a href="#">Главная</a></li>
+       <li>Компания</li>
+       <li><a href="catalog.html">Каталог</a></li>
+       <li>Новости</li>
+       <li>Спецпредложения</li>
+       <li>Доставка</li>
+       <li></li>
     </ul>
   </nav>
+
 </header>
 
 <main class="container">
 
   <section class="services">
-    <Ul class="services-bloc">
+  <h2 class="visually-hidden">Мы предлагаем!</h2>
+    <ul class="services-bloc">
       <li class="services-stuff">
-        <h2>Материалы<h3>НА ЛЮБОЙ ВКУС</h3></h2>
+        <b>Материалы
+          <a href="">НА ЛЮБОЙ ВКУС</a>
+        </b>
       </li>
       <li>
-        <h2>Инструмент<h3>НА ВСЕ СЛУЧАИ</h3></h2>
+        <b>Инструмент
+          <a href="">НА ВСЕ СЛУЧАИ</a>
+        </b>
       </li>
       <li>
-        <h2>Техника<h3>ДЛЯ СТРОЙКИ</h3></h2>
+        <b>Техника
+          <a href="">ДЛЯ СТРОЙКИ</a>
+        </b>
       </li>
       <li>
         <img src="картинка" height="" width="" alt="демонстрация работы дрели"> 
-        <h2>Дрели<h3>Соседям на радость!</h3></h2>
-        <h3>ОТКРЫТЬ КАТАЛОГ</h3>
+         <b>Дрели
+          <a href="">Соседям на радость!</a>
+         </b>
+         <a href="catalog.html">ОТКРЫТЬ КАТАЛОГ</a>
         </img>
       </li>
       <li>
-        <h2>Скидки 50%<h3>НА 350 ТОВАРОВ</h3></h2>
+        <b>Скидки 50%
+          <a href="">НА 350 ТОВАРОВ</a>
+        </b>
       </li>
-      <li>Доставка<h3>БЕСПЛАТНО</h3></li>
-    </Ul>
+      <li>
+        <b>Доставка
+          <a href="">БЕСПЛАТНО</a>
+        </b>
+      </li>
+    </ul>
   </section>
 
   <div class="popular">
-    <h2>Популярные товары</h2><a class="popular btn">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
-    <ul class="popular-cart">
-      <li>Перфоратор BOSCH BFG 9000
-          <ul>
-              <li class="popular-oldprice">32500 Р.</li>
-              <li class="popular-newprice">25500 р.</li>
-          </ul>
-      </li>
-      <li>Перфоратор BOSCH BFG 3000
-        <ul>
-          <li class="oldprice">22500 Р.</li>
-          <li class="newprice">15500 р.</li>
-        </ul>
-      </li>
-      <li>Перфоратор BOSCH BFG 6000
-          <ul>
-              <li class="oldprice">30500 Р.</li>
-              <li class="newprice">25500 р.</li>
-          </ul>
-      </li>
-      <li>Перфоратор BOSCH BFG 2000
-          <ul>
-              <li class="newprice">12500 Р.</li>
-          </ul>
-      </li>
-    </ul>
+    <h2>Популярные товары</h2>
+      <a class="popular btn">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
   </div>
 
+  <sections class="popular-cart">
+    <ul>
+      <li>
+         <a href="">Перфоратор BOSCH BFG 9000</a>
+         <del class="popular-oldprice">32500 Р.</del>
+         <a href="" class="popular-newprice">25500 р.</a>
+      </li>
+      <li>
+         <a href="">Перфоратор BOSCH BFG 3000</a>
+         <del class="oldprice">22500 Р.</del>
+         <a href="" class="newprice">15500 р.</a>
+      </li>
+      <li>
+         <a href="">Перфоратор BOSCH BFG 6000</a>
+         <del class="oldprice">30500 Р.</del>
+         <a href="" class="newprice">25500 р.</a>
+      </li>
+      <li>
+         <a href="">Перфоратор BOSCH BFG 2000</a>
+         <a class="newprice">12500 Р.</a>
+      </li>
+    </ul>
+  </section>    
 
-  <div class="popular-creator">
-      <h2>Популярные производители</h2><a class="popular btn">ВСЕ ПРОИЗВОДИТЕЛИ</a>
+  <section class="popular-creator">
+      <h2>Популярные производители</h2>
+      <a class="popular btn">ВСЕ ПРОИЗВОДИТЕЛИ</a>
       <ul class="popular-procreator">
         <li><img src="" height="" width="" alt="bosch"></li>
         <li><img src="" height="" width="" alt="makita"></li>
@@ -103,7 +125,7 @@
         <li><img src="" height="" width="" alt="aeg"></li>
         <li><img src="" height="" width="" alt="metabo"></li>
       </ul>
-  </div>
+  </section>
 
   <section class="service">
     <h2 class="service-caption">Сервисы</h2>
@@ -126,29 +148,32 @@
     <h2>Компания "ТЕХНОМАРТ"</h2>
     <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэекономит на гастарбайтерах.</p>
     <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями.</p>
-
     <ul class="about-company-delivery">
       <li>Деловые линии</li>
       <li>Автотрейдинг</li>
       <li>ЖелДорЭкспедиция</li>
     </ul>
-
     <a href="" class="about-company-btn">Подробнее о компании</a>
-    <h2>Контакты</h2>
+  </sections>
+
+  <section class="pickup">
+    <h2><a href="tel:+7-812-555-05-05">Контакты</a></h2>
     <p>Вы можете забрать товар сами, заехав в наш офис</p>
-    <!-- Здесь будет форма и карта-->
+      <!-- Здесь будет форма и карта-->
     <a href="supportbtn.html" class="about-company-supportbtn">Заблудились? Напишите нам!</a>
   </section>
+
 </main>
 
 <footer>
+
   <div class="footer-nav">
     <a class="footer-logo" >
         <img src="img/index-logo.svg" width="170" height="80" alt="Логотип Техномарт">
       </a>
 
     <ul class="footer-contacts">
-        <li href="tel+7-812-555-05-05">+7(812)555-05-05</li>
+        <li href="tel:+7-812-555-05-05">+7(812)555-05-05</li>
         <li class="adss"><address>г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8</address></li>
     </ul>
 
@@ -168,21 +193,25 @@
     </ul>
   </div>
 
-  <div class="copyright">
-    <p>2010-2019 Компания "Техномарт"
-    Все права защищены</p>
-  </div>
+  <p class="copyright">
+    2010-2019 Компания "Техномарт"
+    Все права защищены
+  </p>
 
   <div class="social">
-    <a class="social-btn-vk" href="../vk.com">vk logo</a>
-    <a class="social-btn-fb" href="../fb.com">fb logo</a>
-    <a class="social-btn-insta" href="../insta.com">instagram logo</a>
+    <ul class="social-list">
+      <li><a class="social-btn-vk" href="../vk.com">vk logo</a></li>
+      <li><a class="social-btn-fb" href="../fb.com">fb logo</a></li>
+      <li><a class="social-btn-insta" href="../insta.com">instagram logo</a></li>
+    </ul>
   </div>
 
   <div class="feedback">
     <b>Обратная связь:</b>
     <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
   </div>
+
 </footer>
+
   </body>
 </html>
