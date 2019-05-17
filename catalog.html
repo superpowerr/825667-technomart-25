@@ -6,6 +6,8 @@
 
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -15,20 +17,34 @@
         <a class="main-logo" href="index.html">
             <img src="img/index-logo.svg" width="170" height="80" alt="Логотип Техномарт">
         </a>
-        <a class="main-search" href="search.html">Поиск</a>
-        <a class="main-bookmarks" href="bookmarks.html">Закладки:0</a>
-        <a class="main-cart" href="cart.html">Корзина:10</a>
+        <a class="main-search" href="search.html">
+            <img src="img/png/icon-search.png" width="17" height="17" alt="Иконка поиск">
+            Поиск
+        </a>
+        <a class="main-bookmarks" href="bookmarks.html">
+            <img src="img/png/icon-bookmark.png" width="14" height="16" alt="Иконка закладок">
+            Закладки:0
+        </a>
+        <a class="main-cart" href="cart.html">
+            <img src="img/png/cart-icon.png" width="15" height="15" alt="Иконка корзины">
+            Корзина:10
+        </a>
         <a class="main-order" href="oreder.html">Оформить заказ</a>
         <h1>Интернет-магазин строительных материалов и инструмента для ремонта</h1>
 
         <div class="main-contacts">
             <a href="tel:+7-812-555-05-05">
-                <adress>+7(812)555-05-05</adress>
+                <adress>
+                    <img src="img/png/icon-phone.png" width="19" height="19" alt="Иконка телефон">
+                    +7(812)555-05-05
+                </adress>
             </a>
             <adress>г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8</adress>
         </div>
 
+        <img src="img/png/icon-user.png" width="20" height="18" alt="Иконка пользователь">
         <b>Равшан Джамшутович</b>
+        <img src="img/png/icon-logout.png" width="20" height="17" alt="Иконка выхода">
 
         <ul>
             <li><a class="head-order" href="order.html">Мои заказы</a></li>
@@ -52,10 +68,26 @@
     <main class="container">
 
         <ul class="breadcrumbs">
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="tools.html">Инструменты</a></li>
-            <li class="breadcrumbs-current">ПЕРФОРАТОРЫ</li>
+            <li>
+                <a href="index.html">
+                    <img src="img/png/icon-home.png" width="14" height="12" alt="Иконка домашняя страница">
+                </a>
+            </li>
+            <li>
+                <a href="catalog.html">
+                    <img src="img/png/icon-right-small.png" width="8" height="12" alt="далее">
+                    Каталог
+                </a>
+            </li>
+            <li><a href="tools.html">
+                    <img src="img/png/icon-right-small.png" width="8" height="12" alt="далее">
+                    Инструменты
+                </a>
+            </li>
+            <li class="breadcrumbs-current">
+                <img src="img/png/icon-right-small.png" width="8" height="12" alt="далее">
+                ПЕРФОРАТОРЫ
+            </li>
         </ul>
 
         <h2>ПЕРФОРАТОРЫ</h2>
@@ -63,19 +95,40 @@
         <div class="manufacturers">
             <h2 class="headding">Производители:</h2>
             <ul class="manufacturers-list">
-                <li>BOSCH</li>
-                <li>ИНТЕРСКОЛ</li>
-                <li>MAKITA</li>
-                <li>DEWALT</li>
-                <li>HITACHI</li>
+                <li>
+                    <img src="img/png/checkbox-on.png" width="27" height="23" alt="чек бокс отмечен">
+                    BOSCH
+                </li>
+                <li>
+                    <img src="img/png/checkbox-off.png" width="23" height="23" alt="чек бокс снят">
+                    ИНТЕРСКОЛ
+                </li>
+                <li>
+                    <img src="img/png/checkbox-on.png" width="27" height="23" alt="чек бокс отмечен">
+                    MAKITA
+                </li>
+                <li>
+                    <img src="img/png/checkbox-off.png" width="23" height="23" alt="чек бокс снят">
+                    DEWALT
+                </li>
+                <li>
+                    <img src="img/png/checkbox-off.png" width="23" height="23" alt="чек бокс снят">
+                    HITACHI
+                </li>
             </ul>
         </div>
 
         <div class="nutrition">
             <h2 class="headding">Питание:</h2>
             <ul class="nutrition-list">
-                <li>Аккумуляторные</li>
-                <li>Сетевые</li>
+                <li>
+                    <img src="img/png/radio-on.png" width="25" height="25" alt="чек бокс отмечен">
+                    Аккумуляторные
+                </li>
+                <li>
+                    <img src="img/png/radio-off.png" width="25" height="25" alt="чек бокс снят">
+                    Сетевые
+                </li>
             </ul>
         </div>
 
@@ -84,52 +137,63 @@
         <section class="perf-list">
             <ul>
                 <li>
+                    <img src="img/png/item1.png" width="218" height="170" alt="Перфоратор">
                     <a href="">Перфоратор BOSCH BFG 3000</a>
                     <del class="oldprice">22500 Р.</del>
                     <a href="" class="newprice">15500 Р.</a>
                 </li>
                 <li>
+                    <img src="img/png/item2.png" width="218" height="170" alt="Перфоратор">
                     <a href="">Перфоратор BOSCH BFG 6000</a>
                     <del class="oldprice">30500 Р.</del>
                     <a href="" class="newprice">25500 Р.</a>
                 </li>
                 <li>
                     <a href="">Перфоратор BOSCH BFG 2000</a>
-                    <b class="new">new</b>
-                    <a class="btn-buy">Купить</a>
+                    <img src="img/png/new-flag.png" width="60" height="59" alt="Новый товар">
+                    <a class="btn-buy">
+                        <img src="img/png/cart-icon.png" width="15" height="15" alt="Иконка корзины">
+                        Купить
+                    </a>
                     <a class="inbookmarks">В закладки</a>
                     <a href="" class="newprice">12500</a>
                 </li>
                 <!--конец первого ряда-->
                 <li>
+                    <img src="img/png/item1.png" width="218" height="170" alt="Перфоратор">
                     <a href="">Перфоратор BOSCH BFG 3000</a>
                     <del class="oldprice">22500 Р.</del>
                     <a href="" class="newprice">15500 Р.</a>
                 </li>
                 <li>
-                    <b class="new">new</b>
+                    <img src="img/png/item2.png" width="218" height="170" alt="Перфоратор">
+                    <img src="img/png/new-flag.png" width="60" height="59" alt="Новый товар">
                     <a href="">Перфоратор BOSCH BFG 6000</a>
                     <del class="oldprice">30500 Р.</del>
                     <a href="" class="newprice">25500 Р.</a>
                 </li>
                 <li>
+                    <img src="img/png/item1.png" width="218" height="170" alt="Перфоратор">
                     <a href="">Перфоратор BOSCH BFG 2000</a>
                     <a href="" class="newprice">12500</a>
                 </li>
                 <!--конец второго ряда-->
                 <li>
-                    <b class="new">new</b>
+                    <img src="img/png/item1.png" width="218" height="170" alt="Перфоратор">
+                    <img src="img/png/new-flag.png" width="60" height="59" alt="Новый товар">
                     <a href="">Перфоратор BOSCH BFG 3000</a>
                     <del class="oldprice">22500 Р.</del>
                     <a href="" class="newprice">15500 Р.</a>
                 </li>
                 <li>
+                    <img src="img/png/item2.png" width="218" height="170" alt="Перфоратор">
                     <b class="new">new</b>
                     <a href="">Перфоратор BOSCH BFG 6000</a>
                     <del class="oldprice">30500 Р.</del>
                     <a href="" class="newprice">25500 Р.</a>
                 </li>
                 <li>
+                    <img src="img/png/item1.png" width="218" height="170" alt="Перфоратор">
                     <a href="">Перфоратор BOSCH BFG 2000</a>
                     <a href="" class="newprice">12500</a>
                 </li>
@@ -169,7 +233,7 @@
 
         <div class="footer-nav">
             <a class="footer-logo">
-                <img src="img/index-logo.svg" width="170" height="80" alt="Логотип Техномарт">
+                <img src="img/png/invalid-name.png" width="138" height="23" alt="Логотип Техномарт">
             </a>
 
             <ul class="footer-contacts">
@@ -202,9 +266,18 @@
         </p>
 
         <ul class="social-list">
-            <li><a class="social-btn-vk" href="../vk.com">vk logo</a></li>
-            <li><a class="social-btn-fb" href="../fb.com">fb logo</a></li>
-            <li><a class="social-btn-insta" href="../insta.com">instagram logo</a></li>
+            <li><a class="social-btn-vk" href="../vk.com">
+                    <img src="img/png/vk-icon.png" width="26" height="15" alt="Логотип Вконтакте">
+                </a>
+            </li>
+            <li><a class="social-btn-fb" href="../fb.com">
+                    <img src="img/png/fb-icon.png" width="12" height="22" alt="Логотип Facebook">
+                </a>
+            </li>
+            <li><a class="social-btn-insta" href="../insta.com">
+                    <img src="img/png/insta-icon.png" width="21" height="21" alt="Логотип Instagram">
+                </a>
+            </li>
         </ul>
 
         <div class="feedback">
