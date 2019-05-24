@@ -13,17 +13,17 @@
   <header class="main-header">
     <div class="menu-back">
       <a class="main-logo">
-        <img src="img/index-logo.svg" width="170" height="80" alt="Логотип Техномарт">
+        <img src="img/invalid-name.svg" width="170" height="80" alt="Логотип Техномарт">
       </a>
       <a class="main-search" href="search.html">
-        <img src="img/png/icon-search.png" width="17" height="17" alt="Иконка поиск">
+        <img src="img/icon-search.svg" width="17" height="17" alt="Иконка поиск">
         Поиск</a>
       <a class="main-bookmarks" href="bookmarks.html">
-        <img src="img/png/icon-bookmark.png" width="14" height="16" alt="Иконка закладок">
+        <img src="img/icon-bookmark.svg" width="14" height="16" alt="Иконка закладок">
         Закладки:0
       </a>
       <a class="main-cart" href="cart.html">
-        <img src="img/png/cart-icon.png" width="15" height="15" alt="Иконка корзины">
+        <img src="img/icon-cart.svg" width="15" height="15" alt="Иконка корзины">
         Корзина:0</a>
       <a class="main-order" href="oreder.html">Оформить заказ</a>
     </div>
@@ -31,17 +31,17 @@
 
     <div class="main-contacts">
       <a href="#">
-        <adress>
-          <img src="img/png/icon-phone.png" width="19" height="19" alt="Иконка телефон">
+        <address>
+          <img src="img/icon-phone.svg" width="19" height="19" alt="Иконка телефон">
           +7(812)555-05-05
-        </adress>
+        </address>
       </a>
-      <adress>г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8</adress>
+      <address>г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8</address>
     </div>
 
     <ul>
       <li><a class="button-login" href="loginpage.html">
-          <img src="img/png/icon-login.png" width="20" height="17" alt="Иконка входа">
+          <img src="img/icon-login.svg" width="20" height="17" alt="Иконка входа">
           Войти
         </a>
       </li>
@@ -57,7 +57,7 @@
         <li><a href="#">Новости</a></li>
         <li><a href="#">Спецпредложения</a></li>
         <li><a href="#">Доставка</a></li>
-        <li></li>
+        <li><a href="#">Контакты</a></li>
       </ul>
     </nav>
 
@@ -81,11 +81,17 @@
           <a href="">Для стройки</a>
         </li>
         <li>
-          <img src="картинка" height="" width="" alt="демонстрация работы дрели">
+          <img src="img/slide-image-drill1.jpg" height="266" width="620" alt="демонстрация работы дрели">
           <b>Дрели</b>
-          <a href="">Соседям на радость!</a>
-          <a href="catalog.html">Открыть каталог</a>
+          <a href="#">Соседям на радость!</a>
+          <a href="catalog.html" class="catalog-btn">Открыть каталог</a>
           </img>
+        </li>
+        <li>
+          <img src="img/slide-image-perf2.jpg" height="266" width="620" alt="домонстрация работы перфоратора">
+          <b>Перфораторы</b>
+          <a href="#">Настоящие мужские игрушки</a>
+          <a href="catalog.html" class="catalog-btn">Открыть каталог</a>
         </li>
         <li>
           <b>Скидки 50%</b>
@@ -119,7 +125,8 @@
         </li>
         <li>
           <a href="">Перфоратор BOSCH BFG 2000</a>
-          <a class="newprice">12500 Р.</a>
+          <a href="" class="newprice">12500 Р.</a>
+          <img src="img/new-flag.png" width="60" height="59" alt="Новый товар">
         </li>
       </ul>
     </section>
@@ -175,9 +182,38 @@
     <section class="pickup">
       <h2>Контакты</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис</p>
-      <!-- Здесь будет форма -->
-      <img src="img/jpg/map.jpg" width="300" height="158" alt="Как проехать?">
+      <img src="img/map.jpg" width="300" height="158" alt="Как проехать?">
       <a href="supportbtn.html" class="about-company-supportbtn">Заблудились? Напишите нам!</a>
+    </section>
+
+    <!-- форма -->
+    <section class="modal-map-popapp">
+      <div class="modal-map">
+        <img src="img/map.jpg" width="940" height="446,2"
+          alt="Мы находимся: г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8">
+        <button class="modal-close" aria-label="Кнопка закрытия модального окна">
+          <img src="img/icon-close.svg" alt="Закрыть карту">
+      </div>
+      <button class="modal-close" aria-label="Кнопка закрытия модального окна">
+        <img src="img/icon-close.svg" alt="Закрыть попап">
+        <form class="user" method="post" action="https://echo.htmlacademy.ru">
+          <p>
+            <label for="user-name">Ваше имя:</label>
+            <input id="user-name" type="text" name="user-name" placeholder="Имя Фамилия">
+          </p>
+          <p>
+            <label for="user-email">Ваш e-mail:</label>
+            <input id="user-email" type="email" name="email" placeholder="email@example.com">
+          </p>
+          <p>
+            <label for="user-message">Текст письма:</label>
+            <input id="user-massage" type="text" name="message" placeholder="В свободной форме">
+          </p>
+          <p>
+            <button type="submit" class="submit-btn">Отправить</button>
+          </p>
+        </form>
+      </button>
     </section>
 
   </main>
@@ -186,15 +222,13 @@
 
     <div class="footer-nav">
       <a class="footer-logo">
-        <img src="img/png/invalid-name.png" width="138" height="23" alt="Логотип Техномарт">
+        <img src="img/invalid-name.svg" width="138" height="23" alt="Логотип Техномарт">
       </a>
 
-      <ul class="footer-contacts">
-        <li href="tel:+7-812-555-05-05">+7(812)555-05-05</li>
-        <li class="adss">
-          <adress>г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8</adress>
-        </li>
-      </ul>
+      <address class="footer-contacts">
+        г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8<br>
+        +7(812)555-05-05
+      </address>
 
       <ul class="footer-topmenu">
         <li>Компания</li>
@@ -219,24 +253,28 @@
 
     <ul class="social-list">
       <li><a class="social-btn-vk" href="../vk.com">
-          <img src="img/png/vk-icon.png" width="26" height="15" alt="Логотип Вконтакте">
+          <img src="img/icon-vk.svg" width="26" height="15" alt="Логотип Вконтакте">
         </a>
       </li>
       <li><a class="social-btn-fb" href="../fb.com">
-          <img src="img/png/fb-icon.png" width="12" height="22" alt="Логотип Facebook">
+          <img src="img/icon-fb.svg" width="12" height="22" alt="Логотип Facebook">
         </a>
       </li>
       <li><a class="social-btn-insta" href="../insta.com">
-          <img src="img/png/insta-icon.png" width="21" height="21" alt="Логотип Instagram">
+          <img src="img/icon-insta.svg" width="21" height="21" alt="Логотип Instagram">
         </a>
       </li>
     </ul>
-
 
     <div class="feedback">
       <b>Обратная связь:</b>
       <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
     </div>
+
+    <p class="developed-by">
+      Разработано-<br>
+      <a href="htmlacademy.ru">htmlacademy.ru</a>
+    </p>
 
   </footer>
 
