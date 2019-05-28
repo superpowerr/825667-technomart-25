@@ -111,66 +111,64 @@
             </li>
         </ul>
 
-        <h2>ПЕРФОРАТОРЫ</h2>
-
-        <div class="manufacturers">
-            <h3 class="headding">Производители:</h3>
-            <form>
+        <form class="category-search">
+            <h2>ПЕРФОРАТОРЫ</h2>
+            <fieldset class="manufacturers">
+                <h3 class="headding">Производители:</h3>
                 <ul class="manufacturers-list">
                     <li>
                         <label>
-                            <input type="checkbox" name="BOSH" checked>
+                            <input type="checkbox" name="BOSH" value="BOSCH" checked>
                             BOSCH
                         </label>
                     </li>
                     <li>
                         <label>
-                            <input type="checkbox" name="ИНТЕРСКОЛ">
+                            <input type="checkbox" name="ИНТЕРСКОЛ" value=" ИНТЕРСКОЛ">
                             ИНТЕРСКОЛ
                         </label>
                     </li>
                     <li>
                         <label>
-                            <input type="checkbox" name="MAKITA" checked>
+                            <input type="checkbox" name="MAKITA" value=" MAKITA" checked>
                             MAKITA
                         </label>
                     </li>
                     <li>
                         <label>
-                            <input type="checkbox" name="DEWALT">
+                            <input type="checkbox" name="DEWALT" value="DEWALT">
                             DEWALT
                         </label>
                     </li>
                     <li>
                         <label>
-                            <input type="checkbox" name="HITACHI">
+                            <input type="checkbox" name="HITACHI" value="HITACHI">
                             HITACHI
                         </label>
                     </li>
                 </ul>
-            </form>
-        </div>
+            </fieldset>
 
-        <div class="nutrition">
-            <h3 class="headding">Питание:</h3>
-            <form>
+            <fieldset class="nutrition">
+                <h3 class="headding">Питание:</h3>
                 <ul class="nutrition-list">
                     <li>
                         <label>
-                            <input type="radio" name="nutrition-group">
+                            <input type="radio" name="nutrition-group" value="accumulator">
                             Аккумуляторные
                         </label>
                     </li>
                     <li>
                         <label>
-                            <input type="radio" name="nutrition-group">
+                            <input type="radio" name="nutrition-group" value="networked">
                             Сетевые
                         </label>
                     </li>
                 </ul>
-            </form>
-            <a href="to-showbtn.html" class="btn-showme">Показать</a>
-        </div>
+            </fieldset>
+            <button type="submit" class="btn-showme">Показать</button>
+        </form>
+
         <section class="perf-list">
             <ul>
                 <li>
@@ -187,7 +185,6 @@
                 </li>
                 <li>
                     <a href="">Перфоратор BOSCH BFG 2000</a>
-                    <img src="img/new-flag.png" width="60" height="59" alt="Новый товар">
                     <a class="btn-buy">
                         <img src="img/icon-cart.svg" width="15" height="15" alt="Иконка корзины">
                         Купить
@@ -204,7 +201,6 @@
                 </li>
                 <li>
                     <img src="img/product-item2.jpg" width="218" height="170" alt="Перфоратор">
-                    <img src="img/new-flag.png" width="60" height="59" alt="Новый товар">
                     <a href="">Перфоратор BOSCH BFG 6000</a>
                     <del class="oldprice">30500 Р.</del>
                     <a href="" class="newprice">25500 Р.</a>
@@ -217,7 +213,6 @@
                 <!--конец второго ряда-->
                 <li>
                     <img src="img/product-item.jpg" width="218" height="170" alt="Перфоратор">
-                    <img src="img/new-flag.png" width="60" height="59" alt="Новый товар">
                     <a href="">Перфоратор BOSCH BFG 3000</a>
                     <del class="oldprice">22500 Р.</del>
                     <a href="" class="newprice">15500 Р.</a>
