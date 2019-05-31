@@ -3,9 +3,15 @@
 <html lang="ru">
 
 <head>
+
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -13,7 +19,7 @@
   <header class="main-header">
     <div class="menu-back">
       <a class="main-logo">
-        <img src="img/invalid-name.svg" width="170" height="80" alt="Логотип Техномарт">
+        <img src="img/invalid-name.svg" width="109" height="19" alt="Логотип Техномарт">
       </a>
       <a class="main-search" href="search.html">
         <img src="img/icon-search.svg" width="17" height="17" alt="Иконка поиск">
@@ -25,31 +31,28 @@
       <a class="main-cart" href="cart.html">
         <img src="img/icon-cart.svg" width="15" height="15" alt="Иконка корзины">
         Корзина:0</a>
-      <a class="main-order" href="oreder.html">Оформить заказ</a>
-    </div>
-    <h1>Интернет-магазин строительных материалов и инструмента для ремонта</h1>
-
-    <div class="main-contacts">
-      <a href="#">
-        <address>
-          <img src="img/icon-phone.svg" width="19" height="19" alt="Иконка телефон">
-          +7(812)555-05-05
-        </address>
-      </a>
-      <address>г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8</address>
+      <a class="btn-main-order" href="oreder.html">Оформить заказ</a>
     </div>
 
-    <ul>
+    <h1 class="contens">Интернет-магазин строительных материалов и инструмента для ремонта</h1>
+
+    <a href="tel:+78125550505" class="main-phone">
+      <img src="img/icon-phone.svg" width="19" height="19" alt="Иконка телефон">
+      +7(812)555-05-05
+    </a>
+    <address class="main-address">г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8</address>
+
+    <ul class="authentication">
       <li><a class="button-login" href="loginpage.html">
           <img src="img/icon-login.svg" width="20" height="17" alt="Иконка входа">
           Войти
         </a>
       </li>
-      <li><a class="registration" href="registration.html">Регистрация</a></li>
+      <li><a class="button-registration" href="registration.html">Регистрация</a></li>
     </ul>
 
 
-    <nav class="main">
+    <nav class="menu-back">
       <ul class="mainnav">
         <li><a href="#">Главная</a></li>
         <li><a href="#">Компания</a></li>
@@ -126,7 +129,6 @@
         <li>
           <a href="">Перфоратор BOSCH BFG 2000</a>
           <a href="" class="newprice">12500 Р.</a>
-          <img src="img/new-flag.png" width="60" height="59" alt="Новый товар">
         </li>
       </ul>
     </section>
@@ -168,27 +170,28 @@
       </ul>
     </section>
 
-    <section class="about-company">
-      <h2>Компания "ТЕХНОМАРТ"</h2>
-      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
-        равнодушными любителей сэекономит на гастарбайтерах.</p>
-      <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными
-        компаниями.</p>
-      <ul class="about-company-delivery">
-        <li>Деловые линии</li>
-        <li>Автотрейдинг</li>
-        <li>ЖелДорЭкспедиция</li>
-      </ul>
-      <a href="" class="about-company-btn">Подробнее о компании</a>
-    </section>
+    <div class="about-company">
+      <section class="about-company">
+        <h2 class="headding">Компания "ТЕХНОМАРТ"</h2>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
+          равнодушными любителей сэекономит на гастарбайтерах.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными
+          компаниями.</p>
+        <ul class="about-company-delivery">
+          <li>Деловые линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>
+        </ul>
+        <a href="" class="about-company-btn">Подробнее о компании</a>
+      </section>
 
-    <section class="pickup">
-      <h2>Контакты</h2>
-      <p>Вы можете забрать товар сами, заехав в наш офис</p>
-      <img src="img/map.jpg" width="300" height="158" alt="Как проехать?">
-      <a href="supportbtn.html" class="about-company-supportbtn">Заблудились? Напишите нам!</a>
-    </section>
-
+      <section class="pickup">
+        <h2>Контакты</h2>
+        <p>Вы можете забрать товар сами, заехав в наш офис</p>
+        <img src="img/map.jpg" width="300" height="158" alt="Как проехать?">
+        <a href="supportbtn.html" class="about-company-supportbtn">Заблудились? Напишите нам!</a>
+      </section>
+    </div>
     <!-- форма -->
     <section class="modal-map-popapp">
       <div class="modal-map">

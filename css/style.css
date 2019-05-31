@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cuprum", Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.menu-back {
+    width: 1200px;
+    height: 42px;
+    background-color: #293449;
+}
+
+
+.main-logo {
+    width: 220px;
+    line-height: 47px;
+    box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+    background-color: #ee3643;
+}
+
+
+.menu-back a {
+    font-family: Cuprum;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 18px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.btn-main-order {
+    width: 150px;
+    height: 42px;
+    background-color: #63a63e;
+}
+
+.main-header {
+    width: 1200px;
+    height: 320px;
+    background-color: #f4f7f9;
+}
+
+.contens {
+    width: 196px;
+    height: 60px;
+    font-family: Cuprum;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ee3643;
+}
+
+
+.main-phone {
+    width: 270px;
+    height: 45px;
+    border: solid 3px #ffffff;
+
+    width: 144px;
+    height: 21px;
+    font-family: Cuprum;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 21px ;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ee3643;
+}
+
+
+.main-address {
+    width: 250px;
+    height: 13px;
+    font-family: Cuprum;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px ;
+    letter-spacing: normal;
+    text-align: center;
+    color: #32425c;
+}
+
+
+.authentication,
+.mainnav {
+    list-style: none
+}
+
+
+.authentication a {
+    font-family: Cuprum;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 21px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+
+.button-login {
+    width: 121px;
+    height: 45px;
+}
+
+
+.button-registration {
+    width: 150px;
+    height: 45px;
+}
+
+
+nav.menu-back {
+    width: 940px;
+    height: 60px;
+    box-shadow: inset 0px -5px 0 0 #293449;
+    background-color: #32425c;
+}
+
+
+.mainnav a {
+    font-family: Cuprum;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+
+    background-color: #32425c;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+div.about-company {
+    width: 1200px;
+    height: 536px;
+    background-color: #ffffff;
+}
+
+
+.about-company .headding {
+    width: 300px;
+    height: 21px;
+    font-family: Cuprum;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+.about-company p {
+    width: 519px;
+    height: 37px;
+    font-family: "PTSans", Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.about-company-delivery {
+    width: 109px;
+    height: 16px;
+    font-family: Cuprum;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000
+    list-style: none;
+}
+    
+
