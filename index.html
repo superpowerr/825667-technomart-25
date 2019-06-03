@@ -17,6 +17,7 @@
 <body>
 
   <header class="main-header">
+
     <div class="menu-back">
       <a class="main-logo">
         <img src="img/invalid-name.svg" width="109" height="19" alt="Логотип Техномарт">
@@ -171,11 +172,14 @@
     </section>
 
     <div class="about-company">
+
       <section class="about-company">
         <h2 class="headding">Компания "ТЕХНОМАРТ"</h2>
-        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
-          равнодушными любителей сэекономит на гастарбайтерах.</p>
-        <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными
+        <p class="about-company-p1">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+          строительства не оставит
+          равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <p class="about-company-p2">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со
+          многими транспортными
           компаниями.</p>
         <ul class="about-company-delivery">
           <li>Деловые линии</li>
@@ -186,20 +190,22 @@
       </section>
 
       <section class="pickup">
-        <h2>Контакты</h2>
-        <p>Вы можете забрать товар сами, заехав в наш офис</p>
+        <h2 class="headding">Контакты</h2>
+        <p class="about-company-p1">Вы можете забрать товар сами, заехав в наш офис</p>
         <img src="img/map.jpg" width="300" height="158" alt="Как проехать?">
         <a href="supportbtn.html" class="about-company-supportbtn">Заблудились? Напишите нам!</a>
       </section>
+
     </div>
     <!-- форма -->
     <section class="modal-map-popapp">
-      <div class="modal-map">
-        <img src="img/map.jpg" width="940" height="446,2"
-          alt="Мы находимся: г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8">
-        <button class="modal-close" aria-label="Кнопка закрытия модального окна">
-          <img src="img/icon-close.svg" alt="Закрыть карту">
-      </div>
+      <img src="img/map.jpg" width="940" height="446,2" alt="Мы находимся: г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8">
+      <button class="modal-close" aria-label="Кнопка закрытия модального окна">
+        <img src="img/icon-close.svg" alt="Закрыть карту">
+      </button>
+    </section>
+
+    <section class="modal-form">
       <button class="modal-close" aria-label="Кнопка закрытия модального окна">
         <img src="img/icon-close.svg" alt="Закрыть попап">
         <form class="user" method="post" action="https://echo.htmlacademy.ru">
@@ -232,55 +238,61 @@
       </a>
 
       <address class="footer-contacts">
-        г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8<br>
-        +7(812)555-05-05
+        г.Санкт-Петербург, ул.Б.Конюшенная, д 19/8
+        <a href="tel:+78125550505">+7(812)555-05-05</a>
       </address>
 
-      <ul class="footer-topmenu">
-        <li>Компания</li>
-        <li>Новости</li>
-        <li>Каталог</li>
-        <li>Доставка</li>
-        <li>Контакты</li>
-      </ul>
 
-      <ul class="footer-botmenu">
-        <li>Материалы</li>
-        <li>Техника</li>
-        <li>Инструмент</li>
-        <li>Спецпредложения</li>
-      </ul>
+      <section class="botnavigation">
+        <ul class="footer-topmenu">
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="/catalog.html">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+
+        <ul class="footer-botmenu">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+        </ul>
+      </section>
+
     </div>
 
-    <p class="copyright">
-      2010-2019 Компания "Техномарт"
-      Все права защищены
-    </p>
+    <div class=".footer-contacts-back">
+      <p class="copyright">
+        2010-2019 Компания "Техномарт"
+        Все права защищены
+      </p>
 
-    <ul class="social-list">
-      <li><a class="social-btn-vk" href="../vk.com">
-          <img src="img/icon-vk.svg" width="26" height="15" alt="Логотип Вконтакте">
-        </a>
-      </li>
-      <li><a class="social-btn-fb" href="../fb.com">
-          <img src="img/icon-fb.svg" width="12" height="22" alt="Логотип Facebook">
-        </a>
-      </li>
-      <li><a class="social-btn-insta" href="../insta.com">
-          <img src="img/icon-insta.svg" width="21" height="21" alt="Логотип Instagram">
-        </a>
-      </li>
-    </ul>
+      <ul class="social-list">
+        <li><a class="social-btn-vk" href="../vk.com">
+            <img src="img/icon-vk.svg" width="26" height="15" alt="Логотип Вконтакте">
+          </a>
+        </li>
+        <li><a class="social-btn-fb" href="../fb.com">
+            <img src="img/icon-fb.svg" width="12" height="22" alt="Логотип Facebook">
+          </a>
+        </li>
+        <li><a class="social-btn-insta" href="../insta.com">
+            <img src="img/icon-insta.svg" width="21" height="21" alt="Логотип Instagram">
+          </a>
+        </li>
+      </ul>
 
-    <div class="feedback">
-      <b>Обратная связь:</b>
-      <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      <p class="feedback">
+        <b>Обратная связь:</b>
+        <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      </p>
+
+      <p class="developed-by">
+        Разработано-<br>
+        <a href="htmlacademy.ru">htmlacademy.ru</a>
+      </p>
     </div>
-
-    <p class="developed-by">
-      Разработано-<br>
-      <a href="htmlacademy.ru">htmlacademy.ru</a>
-    </p>
 
   </footer>
 
