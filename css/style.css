@@ -6,7 +6,7 @@ body {
   line-height: 17px;
   font-weight: 400;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 
@@ -201,6 +201,61 @@ background-color: #5fbb2d;
   line-height: 24px ;
   text-align: center;
   color: #32425c;
+}
+
+
+.icon-nameuser::before{
+  content:"";
+  background: url(../img/icon-user.svg);
+}
+
+
+.icon-nameuser{
+  font-family: "Cuprum", Verdana, sans-serif;
+  font-size: 21px;
+  line-height: 21px ;
+  text-align: center;
+  color: #000000;
+}
+
+
+.exit-btn::before {
+content: "";
+background: url(../img/icon-logout.svg);
+}
+
+
+.personal-area .head-order-area,
+.personal-area .head-personal-area {
+  font-family: "Cuprum", Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 18px ;
+  text-align: left;
+  color: #32425c;
+  display: inline;
+}
+
+
+.breadcrumbs .icon-home::before {
+  content: "";
+  background: url(../img/icon-home.svg);
+}
+
+
+.breadcrumbs .icon-right::before {
+  content: "";
+  background: url(../img/icon-right-small.svg);
+}
+
+
+.breadcrumbs li,
+.breadcrumbs-current {
+  font-family: "PTsans", Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 18px ;
+  text-align: left;
+  color: #000000;
+  display: inline;
 }
 
 
