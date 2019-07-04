@@ -112,7 +112,7 @@ input[type="radio"].visually-hidden {
     font: inherit;
     color: #ffffff;
     background-color: #293449;
-    background-image: url("../img/icon-search.svg");
+    background-image: url("../img/icon-search-default.svg");
     background-repeat: no-repeat;
     background-position-x: 17px;
     background-position-y: 11px;
@@ -317,7 +317,7 @@ input[type="radio"].visually-hidden {
 .user-navigation .login::before {
     content: "";
     position: absolute;
-    top: 18px;
+    top: 13px;
     left: 14px;
     width: 20px;
     height: 17px;
@@ -403,7 +403,7 @@ input[type="radio"].visually-hidden {
     background-image: url("../img/icon-logout.svg");
 }
 
-.user-navigation .personal-area {
+.user-navigation .user-wrap {
     font-size: 0;
     line-height: 10px;
 }
@@ -953,7 +953,7 @@ input[type="radio"].visually-hidden {
 
 .popular-goods-item .new,
 .catalog-item .new,
-.offers-item .new {
+.services-item .new {
     position: absolute;
     z-index: 1;
     width: 60px;
@@ -963,7 +963,7 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
 }
 
-.offers-item .new {
+.services-item .new {
     top: -13px;
     right: 0;
 }
@@ -1894,7 +1894,36 @@ input[type="radio"].visually-hidden {
     margin-right: 0;
 }
 
-
+@keyframes fromDown {
+    0% {
+      transform: translateY(10000px);
+    }
+  
+    70% {
+      transform: translateY(-150px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes shake {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+  
+    10%,
+    50% {
+      transform: translateX(-15px);
+    }
+  
+    30%,
+    80% {
+      transform: translateX(15px);
+    }
+  }
 /* Модалочки     ...*/
 
 .modal {
