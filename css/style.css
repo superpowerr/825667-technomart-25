@@ -50,7 +50,7 @@ img {
     min-height: 320px;
     font-size: 17px;
     line-height: 23px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
     color: #ffffff;
     background-color: #f3f7f8;
 }
@@ -491,7 +491,7 @@ input[type="radio"].visually-hidden {
     padding-top: 7px;
     padding-bottom: 7px;
     font-size: 14px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
     vertical-align: middle;
     text-align: center;
     color: #ffffff;
@@ -644,7 +644,7 @@ input[type="radio"].visually-hidden {
     margin-bottom: 15px;
     font-weight: 700;
     font-size: 24px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
     color: #ffffff;
 }
 
@@ -656,7 +656,7 @@ input[type="radio"].visually-hidden {
     padding-top: 7px;
     padding-bottom: 7px;
     font-size: 14px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
@@ -730,7 +730,7 @@ input[type="radio"].visually-hidden {
     padding-top: 27px;
     padding-left: 24px;
     font-size: 18px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
     color: #ffffff;
     background-color: #857c72;
 }
@@ -858,6 +858,7 @@ input[type="radio"].visually-hidden {
     background-image: url("../img/slide-image-perf2.jpg");
     background-repeat: no-repeat;
 }
+
 
 .popular {
     position: relative;
@@ -1154,7 +1155,7 @@ input[type="radio"].visually-hidden {
     padding-left: 22px;
     font-weight: 700;
     font-size: 21px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
     color: #ffffff;
     background-color: #32425c;
     box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
@@ -1197,7 +1198,7 @@ input[type="radio"].visually-hidden {
     margin: 0;
     margin-bottom: 31px;
     font-size: 36px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
     color: #32425c;
     text-transform: uppercase;
 }
@@ -1273,7 +1274,7 @@ input[type="radio"].visually-hidden {
     position: relative;
     margin-bottom: 16px;
     font-size: 18px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
 }
 
 .company-item::before {
@@ -1359,7 +1360,7 @@ input[type="radio"].visually-hidden {
     padding: 7px 18px;
     font-weight: 400;
     font-size: 13px;
-    font-family: "PT Sans", "Arial", sans-serif;
+    font-family: "PT Sans", "Verdana", sans-serif;
     background-color: #f7f3ec;
 }
 
@@ -1690,7 +1691,7 @@ input[type="radio"].visually-hidden {
 
 .main-footer {
     font-size: 18px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
     color: #ffffff;
     background-color: #32425c;
 }
@@ -2030,7 +2031,7 @@ input[type="radio"].visually-hidden {
 .modal-write-us label {
     width: 220px;
     font-size: 18px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
 }
 
 .write-us-form input {
@@ -2111,7 +2112,7 @@ input[type="radio"].visually-hidden {
     padding-left: 179px;
     font-weight: 400;
     font-size: 30px;
-    font-family: "Cuprum", "Arial", sans-serif;
+    font-family: "Cuprum", "Verdana", sans-serif;
 }
 
 .modal-cart p::before {
